@@ -1,3 +1,6 @@
+:root {
+  --primary-color: rgb(29, 35, 51);
+}
 body {
   margin: 0;
   padding: 1rem;
@@ -17,4 +20,34 @@ p {
   padding: 2rem;
   text-align: left;
   font-size: large;
+}
+.btns {
+  background: white;
+  border: none;
+  color: var(--primary-color);
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+.input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#result {
+  display: block;
+  font-size: larger;
+  margin: 1rem 0 0;
+  text-align: center;
 }
