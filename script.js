@@ -16,7 +16,7 @@ function convertDateToStr(date){
     if(date.day<10){
         dateStr.day = '0' + date.day;
     } else {
-        dateStr.day = date.day.toString;
+        dateStr.day = date.day.toString();
     }
 
     if(date.month < 10){
